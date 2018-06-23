@@ -13,6 +13,15 @@ footer {
     text-align: center;
 }
 
+th {
+	padding-left: 20px;
+}
+
+td{
+	text-align: center;
+	padding-left: 20px;
+}
+
 /*! Bootstrap Minimal Styles */
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
