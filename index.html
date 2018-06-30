@@ -14,7 +14,11 @@
 	<meta name="keywords" content="kai taylor, kai, personal, website, online, github, linkedin, uk">
 	
 	<!-- CSS Files -->
-	<link rel = "stylesheet" href="style.css">
+	<link rel = "stylesheet" href="css/style.css">
+
+	<!-- JavaScript Files -->
+	<script type = "text/javascript" src="js/jquery.min.js"></script>
+	<script type = "text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body class="text-container">
@@ -25,7 +29,12 @@
 				<h3 class="masthead-brand">Kai Taylor</h3>
 				<!-- Navigation Bar / Page Switcher -->
 				<nav class="nav nav-masthead justify-content-center">
-					<a class="nav-link active" href="#Home">Home</a>
+					<a class="nav-link active" href="index.html">Home</a>
+					<!-- Dropdown Menu -->
+					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown" role="menu">
+							<li><a class = "dropdown-item" target="_blank" href="https://kaitaylor.xyz/Cash-Calculator/">Cash Calculator</a></li>
+						</div>
 				</nav>
 			</div>
 		</header>
@@ -35,7 +44,7 @@
 			<h1 class="cover-heading">Kai Taylor</h1>
 			<p class="lead">Student</p>
 			<!-- Buttons -->
-			<p class="lead"><a href="https://github.com/KaiGH" class="btn btn-lg btn-secondary">GitHub</a></p>
+			<p class="lead"><a target="_blank" href="https://github.com/KaiGH" class="btn btn-lg btn-secondary">GitHub</a></p>
 		</main>
 		
 		<!-- Footer -->
