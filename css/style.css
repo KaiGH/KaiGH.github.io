@@ -1,35 +1,45 @@
-@import url("bootstrap.min.css");
-@import url("bootstrap.cover.css");
+/* Style navigation bar */
+nav a {
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+ 
+nav a.active {
 
+}
 
-/*! My Stles */
+nav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Body Background */
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-repeat: no-repeat;
-    background-size: 1920px 1080px;
+    background-color: #757575;
 }
 
-main {
-    text-align: center;    
+p {
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-weight:400;
+    margin:10px 0;
 }
 
-footer {
-    text-align: center;
+img {
+    width: 100%;
 }
 
-th {
-	padding-left: 20px;
+/* Halved Left/Right Margins for Equal Sized Cards */
+.half-margin-left {
+    margin-left:8px!important
+}
+.half-margin-right {
+    margin-right:8px!important
 }
 
-td{
-	text-align: center;
-	padding-left: 20px;
-}
-
-.dropdown-menu { 
-    background-color: #555555; 
-}
-
-.dropdown-item {
-    color: #ffffff;
+/* Get rid of underline on links */
+a {
+    text-decoration: none;
 }

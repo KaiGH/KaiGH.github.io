@@ -1,56 +1,93 @@
 <!DOCTYPE html>
-<!-- Hey There! For those interested, this website was created using Bootstrap and hosted on GitHub Pages. Have a great day! -->
 <html lang="en">
 
 <head>
-	<!-- Site Information -->
-	<title>Kai Taylor</title>
-	<link rel="icon" href="favicon.ico">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<!-- Metadata -->
-	<meta name="description" content="My personal website">
-	<meta name="keywords" content="kai taylor, kai, personal, website, online, github, linkedin, uk">
-	
-	<!-- CSS Files -->
-	<link rel = "stylesheet" href="css/style.css">
+    <!-- Site Information -->
+    <title>Kai Taylor</title>
+    <link rel="icon" href="favicon.ico">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-	<!-- JavaScript Files -->
-	<script type = "text/javascript" src="js/jquery.min.js"></script>
-	<script type = "text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- Metadata -->
+    <meta name="description" content="My personal website">
+    <meta name="keywords" content="kai taylor, kai, personal, website, online, github, linkedin, uk">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
 </head>
 
-<body class="text-container">
-	<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-		<!-- Header / Menu Bar -->
-		<header class="masthead mb-auto">
-			<div class="inner">
-				<h3 class="masthead-brand">Kai Taylor</h3>
-				<!-- Navigation Bar / Page Switcher -->
-				<nav class="nav nav-masthead justify-content-center">
-					<a class="nav-link active" href="index.html">Home</a>
-					<!-- Dropdown Menu -->
-					<a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-						<div class="dropdown-menu" aria-labelledby="navbarDropdown" role="menu">
-							<li><a class = "dropdown-item" target="_blank" href="https://kaitaylor.xyz/Cash-Calculator/">Cash Calculator</a></li>
-						</div>
-				</nav>
-			</div>
-		</header>
-		
-		<!-- Main Content -->
-		<main role="main" class="inner cover">
-			<h1 class="cover-heading">Kai Taylor</h1>
-			<p class="lead">Student</p>
-			<!-- Buttons -->
-			<p class="lead"><a target="_blank" href="https://github.com/KaiGH" class="btn btn-lg btn-secondary">GitHub</a></p>
-		</main>
-		
-		<!-- Footer -->
-		<footer class="mastfoot mt-auto">
-			<script type="text/javascript"> document.write("Last Updated: " + document.lastModified);</script>
-		</footer>
-	</div>
+<body>
+    <!-- The Grid -->
+    <div class="w3-content w3-margin-top w3-row-padding" style="max-width:1400px;">
+
+        <!-- Left Column -->
+        <section class="w3-third">
+            <!-- Header Image / Text -->
+            <header class="w3-white w3-text-grey w3-card w3-margin-bottom">
+                <div class="w3-display-container">
+                    <img src="images/avatar.jpg" style="width:100%" alt="Avatar">
+                    <div class="w3-display-bottomleft w3-container w3-text-white">
+                        <h1>Kai Taylor</h1>
+                    </div>
+                </div>
+                <div class="w3-container">
+                    <p><i class="fa fa-globe-americas fa-fw w3-margin-right w3-large w3-text-teal"></i>United Kingdom</p>
+                </div>
+            </header>
+
+            <!-- Navigation Bar -->
+            <nav class="w3-container w3-card w3-white w3-margin-bottom">
+                <h5><b>Website Navigation</h5></b>
+                <div class="w3-margin-left w3-margin-right w3-text-grey w3-margin-bottom">
+                    <a href="index.html"><i class="fa fa-home fa-fw w3-text-teal w3-margin-right"></i>Home</a>
+                    <a href="gallery.html"><i class="fa fa-image fa-fw w3-text-teal w3-margin-right"></i>Gallery</a>
+                    <a href="files.html"><i class="fa fa-folder fa-fw w3-text-teal w3-margin-right"></i>Files</a>
+                    <a href="projects.html"><i class="fa fa-code fa-fw w3-text-teal w3-margin-right"></i>Projects</a>
+                    <a href="about.html"><i class="fa fa-address-card fa-fw w3-text-teal w3-margin-right"></i>About</a>
+                </div>
+            </nav>
+
+            <!-- Social Media Links -->
+            <nav class="w3-container w3-card w3-white w3-margin-bottom">
+                <h5><b>Social Media</h5></b>
+                <div class="w3-margin-left w3-margin-right w3-text-grey w3-margin-bottom">
+                <a target="_blank" href="https://linkedin.com/in/kaitay"><i class="fab fa-linkedin w3-margin-right w3-large w3-text-teal fa-fw"></i>LinkedIn</a>
+                <a target="_blank" href="https://github.com/KaiGH"><i class="fab fa-github w3-margin-right w3-large w3-text-teal fa-fw"></i>GitHub</a>
+                </div>
+            </nav>
+            
+            <!-- Footer -->
+            <footer class="w3-container w3-card w3-white w3-margin-bottom">
+                <p class="w3-text-grey"><i class="fa fa-wrench fa-fw w3-large w3-text-teal w3-margin-right"></i><script type="text/javascript"> document.write("Last Updated: " + new Date(document.lastModified).toLocaleDateString());</script></p>
+                <p class="w3-text-grey"><i class="fa fa-copyright fa-fw w3-large w3-text-teal w3-margin-right"></i>Content Copyright: Kai Taylor</p>
+                <p class="w3-text-grey"><i class="fa fa-cookie fa-fw w3-large w3-text-teal w3-margin-right"></i>Opt out of our cookies: <a href="https://tools.google.com/dlpage/gaoptout">Analytics</a></p>
+            </footer>
+        </section>
+
+        <!-- Right Column -->
+        <main class="w3-twothird">
+            <!-- Header Text -->
+            <header class="w3-container w3-card w3-white w3-margin-bottom">
+                <h2 class="w3-padding-16 w3-margin-left"><i class="fa fa-home fa-fw w3-text-teal w3-margin-right"></i>Home - Website Posts</h2>
+            </header>
+
+            <!-- Most Recent Post -->
+            <article class="w3-container w3-card w3-white w3-margin-bottom">
+                <div class ="w3-margin-left w3-margin-top w3-margin-bottom">
+                    <h5 class="w3-opacity">
+                        <b>Welcome to my refreshed website</b>
+                    </h5>
+                    <h6 class="w3-text-teal">
+                        <i class="fa fa-calendar-alt fa-fw w3-margin-right"></i>July 2018
+                    </h6>
+                    <p>Hello World! This is my refreshed website. I now have a gallery section for some of my favourite photos, a dedicated projects page I hope to slowly expand, an about page and more to come. The refreshed 'cards' design should provide an expandable and versatile design for future expansions to the site.</p>
+                </div>
+            </article>
+        </main>
+    </div>
 </body>
+
 </html>
