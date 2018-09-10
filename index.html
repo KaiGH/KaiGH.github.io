@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Thank you for taking a look at my website. Feel free to contact me on LinkedIn! -->
+<!-- Social media icons courtesy of Axialis: https://www.iconfinder.com/iconsets/free-social-media-set -->
+
 <head>
     <!-- Site Information -->
     <title>Kai Taylor</title>
@@ -15,74 +18,35 @@
 
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/fontawesome.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125518877-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-125518877-1');
+    </script>
+
+
 </head>
 
 <body>
-    <!-- The Grid -->
-    <div class="w3-content w3-margin-top w3-row-padding" style="max-width:1400px;">
+    <div class="card">
+        <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+        <div class="container">
+            <h1><b>Kai Taylor</b></h1>
+            <h4>Computer Science Student</h4>
+        </div>
+    </div> 
 
-        <!-- Left Column -->
-        <section class="w3-third">
-            <!-- Header Image / Text -->
-            <header class="w3-white w3-text-grey w3-card w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img src="images/avatar.jpg" style="width:100%" alt="Avatar">
-                    <div class="w3-display-bottomleft w3-container w3-text-white">
-                        <h1>Kai Taylor</h1>
-                    </div>
-                </div>
-                <div class="w3-container">
-                    <p><i class="fa fa-globe-americas fa-fw w3-margin-right w3-large w3-text-teal"></i>United Kingdom</p>
-                </div>
-            </header>
-
-            <!-- Navigation Bar -->
-            <nav class="w3-container w3-card w3-white w3-margin-bottom">
-                <h5><b>Website Navigation</h5></b>
-                <div class="w3-margin-left w3-margin-right w3-text-grey w3-margin-bottom">
-                    <a href="index.html"><i class="fa fa-home fa-fw w3-text-teal w3-margin-right"></i>Home</a>
-                </div>
-            </nav>
-
-            <!-- Social Media Links -->
-            <nav class="w3-container w3-card w3-white w3-margin-bottom">
-                <h5><b>Social Media</h5></b>
-                <div class="w3-margin-left w3-margin-right w3-text-grey w3-margin-bottom">
-                <a target="_blank" href="https://github.com/KaiGH"><i class="fab fa-github w3-margin-right w3-large w3-text-teal fa-fw"></i>GitHub</a>
-                </div>
-            </nav>
-            
-            <!-- Footer -->
-            <footer class="w3-container w3-card w3-white w3-margin-bottom">
-                <p class="w3-text-grey"><i class="fa fa-wrench fa-fw w3-large w3-text-teal w3-margin-right"></i><script type="text/javascript"> document.write("Last Updated: " + new Date(document.lastModified).toLocaleDateString());</script></p>
-                <p class="w3-text-grey"><i class="fa fa-copyright fa-fw w3-large w3-text-teal w3-margin-right"></i>Content Copyright: Kai Taylor</p>
-                <p class="w3-text-grey"><i class="fa fa-cookie fa-fw w3-large w3-text-teal w3-margin-right"></i>Opt out of our cookies: <a href="https://tools.google.com/dlpage/gaoptout">Analytics</a></p>
-            </footer>
-        </section>
-
-        <!-- Right Column -->
-        <main class="w3-twothird">
-            <!-- Header Text -->
-            <header class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-padding-16 w3-margin-left"><i class="fa fa-home fa-fw w3-text-teal w3-margin-right"></i>Home - Website Posts</h2>
-            </header>
-
-            <!-- Most Recent Post -->
-            <article class="w3-container w3-card w3-white w3-margin-bottom">
-                <div class ="w3-margin-left w3-margin-top w3-margin-bottom">
-                    <h5 class="w3-opacity">
-                        <b>Welcome to my refreshed website</b>
-                    </h5>
-                    <h6 class="w3-text-teal">
-                        <i class="fa fa-calendar-alt fa-fw w3-margin-right"></i>July 2018
-                    </h6>
-                    <p>Hello World! This is my refreshed website. It's currently quite barren, but there's lots to come! The refreshed 'cards' design should provide an expandable and versatile design for future expansions to the site.
-                        I am currently creating a Gallery page featuring some of the favourite photos I've taken and a dedicated Projects page which I hope to expand over time with new and interesting things I've been up to. I will be expanding the site with more pages and content after these pages go live.</p>                </div>
-            </article>
-        </main>
-    </div>
+    <div class="card">
+        <div class="icons">
+            <a href="https://linkedin.com/in/kaitay"><img src="images/linkedin.png" title="LinkedIn Profile" alt="LinkedIn Logo" class="icon"></a>
+            <a href="https://github.com/KaiGH"><img src="images/github.png" title="GitHub Profile" alt="GitHub Logo" class="icon"></a>
+        </div>
+    </div> 
 </body>
 
 </html>

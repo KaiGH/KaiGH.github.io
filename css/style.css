@@ -1,45 +1,72 @@
-/* Style navigation bar */
-nav a {
-    display: block;
-    text-decoration: none;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
- 
-nav a.active {
-
-}
-
-nav a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-
 /* Body Background */
 body {
     background-color: #757575;
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-size: 100% 100%, cover, cover;
+    background-position: top left, center center, bottom center;
+    background-attachment: fixed,fixed,	fixed;
 }
 
+/* Use my preffered font */
 p {
     font-family:"Segoe UI",Arial,sans-serif;
     font-weight:400;
     margin:10px 0;
 }
 
-img {
-    width: 100%;
+h1 {
+    font-family:"Segoe UI",Arial,sans-serif;
+    text-align: center;
+    margin-top: 5px;
 }
 
-/* Halved Left/Right Margins for Equal Sized Cards */
-.half-margin-left {
-    margin-left:8px!important
-}
-.half-margin-right {
-    margin-right:8px!important
+h4 {
+    font-family:"Segoe UI",Arial,sans-serif;
+    text-align: center;
 }
 
 /* Get rid of underline on links */
 a {
     text-decoration: none;
+}
+
+/* Add shadows to create the card effect with a 5px curve */
+.card {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 600px;
+    border-radius: 5px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 64px 128px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+/* Avatar Styling */
+.avatar {
+    width: 45%;
+    border-radius: 100% 100% 100% 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Icon Block Styling */
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin-top: 5px;
 }
