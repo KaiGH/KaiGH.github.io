@@ -69,4 +69,12 @@ a {
 }
 .icon{
     margin-top: 5px;
+    position: relative;
+}
+
+/* Icon hover animation (lift up with shadow) */
+.icon:hover { 
+    top: -3%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
 }
