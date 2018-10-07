@@ -64,11 +64,11 @@ a {
 }
 
 /* Icon Block Styling */
-.icons{
+.icons {
     display: flex;
     justify-content: center;
 }
-.icon{
+.icon {
     margin-top: 5px;
     position: relative;
     height: 100px;
