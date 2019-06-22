@@ -67,6 +67,7 @@ a {
 .icons {
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 .icon {
     margin-top: 5px;
