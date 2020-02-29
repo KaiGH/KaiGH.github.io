@@ -41,8 +41,18 @@
 
     <div class="card">
         <div class="icons">
+            <!-- LinkedIn and GitHub - External Hyperlinks -->
             <a href="https://linkedin.com/in/kaitay"><img src="images/linkedin.png" title="LinkedIn Profile" alt="LinkedIn Logo" class="icon"></a>
             <a href="https://github.com/KaiGH"><img src="images/github.png" title="GitHub Profile" alt="GitHub Logo" class="icon"></a>
+
+            <!-- Base64 Encoded Email/Subject - Rudimentary Scraper Prevention -->
+            <a
+                href="#"
+                data-contact="Y29udGFjdEBrYWl0YXlsb3IueHl6"
+                data-subj="V2Vic2l0ZSBDb250YWN0"
+                onfocus="this.href = 'mailto:' + atob(this.dataset.contact) + '?subject=' + atob(this.dataset.subj || '')">
+            <img src="images/email.png" title="Email Address" alt="Email Icon" class="icon"></a>
+        </a>
         </div>
     </div> 
 </body>
